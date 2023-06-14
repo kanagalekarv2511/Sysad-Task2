@@ -87,3 +87,19 @@ services:
       - POSTGRES_PASSWORD=mysecretpassword
     ports:
       - '5432:5432'
+
+=================================================
+Additional Notes 
+
+root@vaibhavtest:~# echo "# Sysad-Task2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kanagalekarv2511/Sysad-Task2.git
+git push -u origin main
+
+git add Dockerfile-db-final
+git commit -m "Dockerfile-db-final Added"
+git push https://github.com/kanagalekarv2511/Sysad-Task2
+
