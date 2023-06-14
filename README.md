@@ -3,6 +3,7 @@
 Images built Backed on Dockerfiles 
 
 root@vaibhavtest:~# cat Dockerfile.myappwed
+
 FROM ubuntu:latest
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:
 RUN mkdir /root/inputfiles
@@ -17,6 +18,7 @@ COPY ./inputfiles/000-default.conf /etc/apache2/sites-available/
 
 
 root@vaibhavtest:~# cat Dockerfile-db-final
+
 FROM postgres:latest
 ENV POSTGRES_PASSWORD=mysecretpassword
 COPY ./inputfiles/cleansd.txt /tmp
