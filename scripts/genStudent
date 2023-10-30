@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=$PATH:/usr/sbin:/usr/bin 
+export PATH=$PATH:/usr/sbin:/usr/bin:/home/Reyna 
 #####################creating user HAD##################
 echo -e "#####################creating user HAD##################\n\n"
 echo -e "Creating HAD user Please contact System Admin for password \n\n"
